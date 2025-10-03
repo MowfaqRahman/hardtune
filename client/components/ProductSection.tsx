@@ -11,16 +11,19 @@ interface ProductSectionProps {
   }>;
 }
 
-export default function ProductSection({ title, products }: ProductSectionProps) {
+export default function ProductSection({
+  title,
+  products,
+}: ProductSectionProps) {
   const categories = ["Chair", "Beds", "Sofa", "Lamp"];
-  
+
   return (
     <section className="w-full max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-20 py-12 lg:py-16">
       <div className="text-center mb-8">
         <h2 className="font-gilroy font-bold text-3xl sm:text-4xl lg:text-[51px] text-[#1E1E1E] mb-6">
           {title}
         </h2>
-        
+
         <div className="inline-flex items-center gap-2 bg-[#EEE] rounded-full p-2">
           {categories.map((cat, index) => (
             <button

@@ -15,13 +15,22 @@ export default function Header() {
                 Shop
                 <ChevronDown className="w-4 h-4" />
               </button>
-              <a href="#" className="font-satoshi text-base text-black hover:text-orange transition-colors">
+              <a
+                href="#"
+                className="font-satoshi text-base text-black hover:text-orange transition-colors"
+              >
                 On Sale
               </a>
-              <a href="#" className="font-satoshi text-base text-black hover:text-orange transition-colors">
+              <a
+                href="#"
+                className="font-satoshi text-base text-black hover:text-orange transition-colors"
+              >
                 New Arrivals
               </a>
-              <a href="#" className="font-satoshi text-base text-black hover:text-orange transition-colors">
+              <a
+                href="#"
+                className="font-satoshi text-base text-black hover:text-orange transition-colors"
+              >
                 Brands
               </a>
             </nav>

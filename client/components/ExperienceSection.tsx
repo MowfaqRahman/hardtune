@@ -7,8 +7,8 @@ export default function ExperienceSection() {
         <div className="relative">
           <div className="absolute inset-0 bg-[#F7F7F7] rounded-[20px] blur-3xl opacity-50 -z-10"></div>
           <div className="bg-[#F7F7F7] rounded-[20px] aspect-[4/3] relative overflow-hidden">
-            <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/25e4d5c09b3567b3b2cb3df9f80e3c335ec39ed5?width=1258" 
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/25e4d5c09b3567b3b2cb3df9f80e3c335ec39ed5?width=1258"
               alt="Interior experience"
               className="w-full h-full object-cover rounded-[20px]"
             />
@@ -19,15 +19,18 @@ export default function ExperienceSection() {
           <p className="text-[#E58411] font-gilroy font-semibold text-lg tracking-[3.15px] uppercase">
             experiences
           </p>
-          
+
           <h2 className="font-gilroy font-bold text-3xl sm:text-4xl lg:text-[42px] text-[#1E1E1E] capitalize leading-tight">
             we provide you the best experience
           </h2>
-          
+
           <p className="text-[#1E1E1E] font-gilroy text-base lg:text-lg opacity-80 leading-[1.85]">
-            You don't have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials
+            You don't have to worry about the result because all of these
+            interiors are made by people who are professionals in their fields
+            with an elegant and lucurious style and with premium quality
+            materials
           </p>
-          
+
           <button className="flex items-center gap-3 text-[#E58411] font-gilroy font-medium text-sm hover:gap-4 transition-all">
             More Info
             <ArrowRight className="w-5 h-5" />
