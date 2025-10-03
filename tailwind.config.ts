@@ -17,8 +17,8 @@ export default {
         sans: ["Inter", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         volkhov: ["Volkhov", "serif"],
-        satoshi: ["Satoshi", "sans-serif"],
-        gilroy: ["Gilroy", "sans-serif"],
+        satoshi: ["DM Sans", "sans-serif"],
+        gilroy: ["Montserrat", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
