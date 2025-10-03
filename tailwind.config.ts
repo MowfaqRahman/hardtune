@@ -13,6 +13,13 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        volkhov: ["Volkhov", "serif"],
+        satoshi: ["Satoshi", "sans-serif"],
+        gilroy: ["Gilroy", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +64,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        orange: "hsl(var(--orange))",
+        "gray-light": "hsl(var(--gray-light))",
+        "gray-medium": "hsl(var(--gray-medium))",
+        "text-primary": "hsl(var(--text-primary))",
+        "text-secondary": "hsl(var(--text-secondary))",
       },
       borderRadius: {
         lg: "var(--radius)",
